@@ -26,3 +26,16 @@ node -v 18.1.0
 
 <br>
 <br>
+
+### typescript에서prettier가 안될 때
+
+settings.json
+
+```json
+"[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+```
